@@ -1,0 +1,11 @@
+for key,value in D.items():
+  print(key,value) 
+#dictionary 자료형의 키와 값이 짝지어져 출력된다.
+
+sl=sorted(list,key=lambda x:x[0])
+#sl이 2차원 list 혹은 튜플리스트 일때, 각 list에서 list index=0인 기준에 따라 정렬됨.
+#sl=[('Kim',1234,'korea'),('Lee',2345,'korea')] 여기서 위와 같이 정렬하면 각 tuple의 index=0인 이름에 따라 알파벳 순서대로 정렬됨
+
+a=['one','two','three']
+b=[1,2,3]
+c=dict(zip(a,b)) #list a는 key로 하고 b는 value로 하는 dictionary 자료형 c 가 만들어짐
