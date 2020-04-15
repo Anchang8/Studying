@@ -1,0 +1,7 @@
+#list 자료형의 각 자료가 문자형 숫자일 때, int형으로 바꾸는 법
+a=['1','2','3']
+for x in a:
+  x=int(x)    #int형으로 바꾸는 것의 잘못된 예
+
+for x in range(len(a)):
+  a[x]=int(a[x]) #int형으로 바꾸는 것의 올바른 예
